@@ -17,4 +17,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push -f https://NelsonB123J:$HF_TOKEN@huggingface.co/spaces/YOUR_HF_USERNAME/nelsonai-backend main
+          git push -f https://NelsonB123J:$HF_TOKEN@huggingface.co/spaces/NelsonB123J/nelsonai-backend main
